@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90;
+}
+.categories{
+    background-color:red;
+   padding: 15px;
+   
+   margin: 15px;
+   
+  
+    text-align: center;
+    border-radius: 10px 10px 10px;
+   
+}
+.categories button{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.90rem;
+  
+    position: relative;
+font-weight: bolder;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    
+cursor: pointer;
+margin: 5px;
+color: black;
+  border: none;
+   border: solid white 1px;
+   box-shadow: 5px 5px 5px red;
+    border-radius:25px 25px 25px;
+    top: 10px;
+}
+.first{
+    color: silver;
+}
+.categories input{
+    width: 260px;
+    background-color: white;
+    padding: 14px;
+    font-weight: bolder;
+    font-size: 1.50rem;
+    border-radius: 10px 10px 10px;
+    box-shadow: 0  1px 1px 1px red;
+    border: none;
+    color: black;
+    outline: none;
+}
+.categories input::placeholder{
+    font-size: 2rem;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.categories .last{
+   
+   margin: 10px;
+ background-color: red;
+}
+.categories .first{
+    font-weight: bolder;
+    font-size: 1.90rem;
+   color: aliceblue;
+}
+.categories button:hover{
+    background-color: black;
+    color: white;
+}
